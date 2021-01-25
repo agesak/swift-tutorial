@@ -11,6 +11,7 @@
 		3C51DB0C25BF6D6C00158B82 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C51DB0B25BF6D6C00158B82 /* ContentView.swift */; };
 		3C51DB0E25BF6D7100158B82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C51DB0D25BF6D7100158B82 /* Assets.xcassets */; };
 		3C51DB1125BF6D7100158B82 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C51DB1025BF6D7100158B82 /* Preview Assets.xcassets */; };
+		3C51DB1A25BF6DA600158B82 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C51DB1925BF6DA600158B82 /* MenuView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		3C51DB0D25BF6D7100158B82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C51DB1025BF6D7100158B82 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3C51DB1225BF6D7100158B82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C51DB1925BF6DA600158B82 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				3C51DB0925BF6D6C00158B82 /* code_with_chris_tutorialApp.swift */,
 				3C51DB0B25BF6D6C00158B82 /* ContentView.swift */,
 				3C51DB0D25BF6D7100158B82 /* Assets.xcassets */,
+				3C51DB1925BF6DA600158B82 /* MenuView.swift */,
 				3C51DB1225BF6D7100158B82 /* Info.plist */,
 				3C51DB0F25BF6D7100158B82 /* Preview Content */,
 			);
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C51DB0C25BF6D6C00158B82 /* ContentView.swift in Sources */,
+				3C51DB1A25BF6DA600158B82 /* MenuView.swift in Sources */,
 				3C51DB0A25BF6D6C00158B82 /* code_with_chris_tutorialApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
