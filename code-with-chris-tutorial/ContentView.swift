@@ -70,6 +70,14 @@ struct MainView: View {
                     .font(/*@START_MENU_TOKEN@*/.largeTitle/*@END_MENU_TOKEN@*/)
                     .fontWeight(.bold)
                     .foregroundColor(Color.black)
+//                Spacer()
+                
+//                sportscourt.fill
+                Image(systemName: "sportscourt")
+                    .padding(.top)
+                    .font(.system(size: 65, weight: .light))
+                    
+                
                 Spacer()
                     
             }
