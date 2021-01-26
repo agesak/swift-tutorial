@@ -39,9 +39,7 @@ struct ContentView: View {
                                         .imageScale(.large)
                                 }
                             ))
-        }
-
-
+            }
         }
 }
 
@@ -56,21 +54,19 @@ struct MainView: View {
     @Binding var showMenu: Bool
     
     var body: some View {
-        
-        VStack {
-            Spacer()
-
-            Image("dog").resizable().aspectRatio(contentMode: .fit)
-
-            Spacer()
-
-            HStack() {
-                Spacer()
-                Text("Hello!").padding().background(Color.blue)
-                Text("Hello world")
-                Spacer()
+  
+        ZStack {
+            Image("barbell").resizable().aspectRatio(contentMode: /*@START_MENU_TOKEN@*/.fill/*@END_MENU_TOKEN@*/).ignoresSafeArea().opacity(0.1)
+            
+            VStack {
+                Text("Gym Buddies")
+                    .font(/*@START_MENU_TOKEN@*/.largeTitle/*@END_MENU_TOKEN@*/)
+                    .fontWeight(.bold)
+                    .foregroundColor(Color.black)
+                    
             }
         }
+        
         
     }
 }
