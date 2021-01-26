@@ -12,6 +12,7 @@ struct code_with_chris_tutorialApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+//            MenuView()
         }
     }
 }
