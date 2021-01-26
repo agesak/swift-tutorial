@@ -29,10 +29,10 @@ struct MenuView: View {
                     .font(.headline)
             }.padding(.top, 30)
             HStack {
-                Image(systemName: "gear")
+                Image(systemName: "person.2")
                     .foregroundColor(.gray)
                     .imageScale(.large)
-                Text("Settings")
+                Text("Browse Users")
                     .foregroundColor(.gray)
                     .font(.headline)
             }.padding(.top, 30)
