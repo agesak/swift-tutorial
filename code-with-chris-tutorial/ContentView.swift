@@ -79,7 +79,27 @@ struct MainView: View {
                     
                 
                 Spacer()
+                
+//                just examples
+                Button(action: {
+                    print("Button action")
+                }) {
+                    Text("Create Account").font(.title).padding(30.0)
+                }.overlay(
+                    RoundedRectangle(cornerRadius: 10.0)
+                        .stroke(lineWidth: 2.0))
+                
+                Spacer()
+                
+                Button(action: {
+                    print("Button action")
+                }) {
+                    Text("Login with Google").font(.title).padding(30.0)
+                }.overlay(
+                    RoundedRectangle(cornerRadius: 10.0)
+                        .stroke(lineWidth: 2.0))
                     
+                Spacer()
             }
         }
         
